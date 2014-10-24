@@ -74,7 +74,6 @@
     catch(Exception $e) {
         die(var_dump($e));
     }
-    echo "<h3>Searching...!</h3>";
     }
 ?>
 </body>

@@ -76,5 +76,6 @@
     }
     }
 ?>
+<h2>Click <a href="index.php">here</a> to go back</h2>
 </body>
 </html>

@@ -81,6 +81,7 @@
     } else {
         echo "<h3>No one is currently registered.</h3>";
     }
+    echo "<h2>Click <a href="search.php">here </a> to search</h2>";
 ?>
 </body>
 </html>

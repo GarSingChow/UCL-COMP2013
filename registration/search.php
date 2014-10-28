@@ -36,11 +36,11 @@
     catch(Exception $e){
         die(var_dump($e));
     }
-    // Insert registration info
+    // Search registration info
     if(!empty($_POST)) {
     try {
         $name = $_POST['name'];
-        // Insert data
+        // Search data
         $sql_select = "SELECT * FROM registration_tbl WHERE name LIKE '%$name%'";
 	$stmt = $conn->query($sql_select);
 	$registrants = $stmt->fetchAll(); 
